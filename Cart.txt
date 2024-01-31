@@ -1,0 +1,5 @@
+A150,Camera,Electronics,8,70000.0,Sony,3
+A560,Blender,Electronics,7,10000.0,Hitachi,5years
+B270,Jersy,Clothing,9,1000.0,medium,Black
+B450,T,Clothing,9,3000.0,medium,Red
+B600,Shoe,Clothing,10,10000.0,47,White

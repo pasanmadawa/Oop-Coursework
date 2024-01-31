@@ -266,7 +266,8 @@ public  class  WestminsterShoppingManager implements ShoppingManager {
 
 
     public  void deleteProduct() {
-        System.out.println("Madawa");
+        System.out.println("Hello");
+        System.out.println("My name is madawa");
         String productID = "";
         boolean inputChecker = false;
         int digits = 0;
@@ -274,7 +275,7 @@ public  class  WestminsterShoppingManager implements ShoppingManager {
         while (!inputChecker) {
             System.out.print("Enter Product ID to delete in format 'A0000' or 'B0000' : ");
             productId = input.next();
-
+            
             if ((productId.substring(0,1).equals("A") || productId.substring(0,1).equals("B")) ){
                 try{
                     int digits1 = Integer.parseInt(productId.substring(1));
